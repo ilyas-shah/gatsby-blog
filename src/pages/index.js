@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import { css } from "@emotion/core"
@@ -6,6 +7,7 @@ import { rhythm } from "../utils/typography"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home" />
     <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
     <p>
       What do I like to do? Lots of course but definitely enjoy building
